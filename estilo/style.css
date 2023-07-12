@@ -31,28 +31,6 @@ body {
     font-family: var(--font-padrao);
 }
 
-header {
-    background-color: var(--cor2);
-    min-height: 110px;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 5px;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-}
-
-header h1 {
-    color: white;
-    font-family: var(--font-loja);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.411);
-}
-
-header img {
-    width: 50px;
-
-}
 
 nav {
     background-color: var(--cor2);
@@ -76,6 +54,30 @@ nav > a:hover {
     color: var(--cor5);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.795);
 }
+
+header {
+    background-color: var(--cor2);
+    min-height: 110px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+}
+
+header h1 {
+    color: white;
+    font-family: var(--font-loja);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.411);
+}
+
+header img {
+    width: 50px;
+
+}
+
 main {
     min-width: 300px;
     max-width: 1200px;
